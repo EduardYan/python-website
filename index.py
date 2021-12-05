@@ -1,15 +1,15 @@
 """
 This is the principal file for execute
-the server.
+the web server.
 """
 
 from flask import Flask, render_template
 
-# initialating
+# initialating the server
 app = Flask(__name__)
 
-
 @app.route('/')
+@app.route('/home')
 def home():
     """
     This route is for the initial route.
