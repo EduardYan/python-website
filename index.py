@@ -28,4 +28,4 @@ def about():
 
 if __name__ == '__main__':
     # starting the server
-    app.run(port = 2000, debug = True)
+    app.run(port = 5000, debug = True)
